@@ -1,0 +1,43 @@
+#cwrap .crow {
+    border: 1px solid #e4d9d9;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  #cwrap .chead {
+    margin-bottom: 10px;
+  }
+  #cwrap .cname {
+    color: #e88b66;
+    font-weight: bold;
+  }
+  #cwrap .ctime {
+    color: #aaa;
+    font-size: 0.95em;
+  }
+  #cwrap .cmsg {
+    font-size: 1.1em;
+  }
+  
+  /* (B) ADD COMMENT */
+  #cadd {
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 15px;
+  }
+  #cadd h1 {
+    font-size: 1.3em;
+  }
+  #cadd input[type=text], #cadd textarea {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    resize: none;
+  }
+  #cadd input[type=submit] {
+    background: #db4104;
+    border: 0;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
