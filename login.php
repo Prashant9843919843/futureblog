@@ -34,21 +34,18 @@ form{
             //If looged in , the redirects to index page 
             header('Location: pageindex.php');
             exit;
-        }elseif($admin->login($admin,$password)){
-            header('Location: admin/index.php');
-            exit;
-        }
+        
 
         } else {
             $message = '<p class="invalid">Invalid username or Password</p>';
         }
 
-    
+    }
 
     if(isset($message)){ echo $message; }
 ?>
 
-    <form action="" method="POST" class="form">
+    <form action="login.php" method="POST" class="form">
         <label>Username</label>
    <input type="text" id="username" name="username" value="" placeholder="Please enter username"  />
 <br>
